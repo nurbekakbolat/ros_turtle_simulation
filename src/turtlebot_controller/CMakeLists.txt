@@ -10,14 +10,10 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES turtlebot_controller
-#  CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim
-#  DEPENDS system_lib
+
 )
 
 include_directories(
-# include
   ${catkin_INCLUDE_DIRS}
 )
 
